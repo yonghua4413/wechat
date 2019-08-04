@@ -1,0 +1,15 @@
+{
+    "name": "yonghua4413/wechat",
+    "authors": [
+        {
+            "name": "yongua4413",
+            "email": "254274509@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "wechat\\": "src/"
+        }
+    }
+}
