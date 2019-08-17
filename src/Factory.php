@@ -1,12 +1,12 @@
 <?php
 
-namespace yonghua4413\wechat;
+namespace YongHua4413\WeChat;
 
 class Factory
 {
     public static function make($namespace, array $config)
     {
-        $application = "\\yonghua4413\\wechat\\{$namespace}\\Application";
+        $application = "\\YongHua4413\\{$namespace}\\Application";
         return new $application($config);
     }
 

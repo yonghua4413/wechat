@@ -12,7 +12,7 @@
     },
     "autoload": {
         "psr-4": {
-            "yonghua4413\\wechat\\": "src/"
+            "YongHua4413\\WeChat\\": "src/"
         }
     }
 }
